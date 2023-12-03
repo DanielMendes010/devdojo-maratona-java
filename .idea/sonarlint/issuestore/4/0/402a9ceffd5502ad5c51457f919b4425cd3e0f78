@@ -1,0 +1,7 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Øø¶Ïúÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(â–û¹øÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(á¬®µ
+@	java:S106"+Replace this use of System.out by a logger.(á¬®µ
+O
+java:S1128"4Remove this unused import 'Ycolecoes.dominio.Manga'.(¤Ãß¤ûÿÿÿÿ
