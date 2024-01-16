@@ -4,7 +4,6 @@ import java.util.stream.LongStream;
 import java.util.stream.Stream;
 
 public class StreamTest16 {
-
     public static void main(String[] args) {
         System.out.println(Runtime.getRuntime().availableProcessors());
         long num = 10_000_000;
