@@ -1,4 +1,4 @@
-package ZZFthreads;
+package ZZFthreads.test;
 
 class ThreadExample extends Thread {
     private final char c;

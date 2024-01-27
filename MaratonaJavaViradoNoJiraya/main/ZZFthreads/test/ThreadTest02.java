@@ -1,4 +1,4 @@
-package ZZFthreads;
+package ZZFthreads.test;
 
 class ThreadExampleRunnable2 implements Runnable {
     private final String c;
