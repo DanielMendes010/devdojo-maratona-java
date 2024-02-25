@@ -21,7 +21,7 @@ class Worker implements Runnable {
             Thread.sleep(2000);
             System.out.printf("Thread %s finalizou a espera%n", name);
         } catch (InterruptedException e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
         } finally {
             lock.unlock();
         }
