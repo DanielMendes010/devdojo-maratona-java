@@ -4,7 +4,8 @@ import ZZHpadroesdeprojeto.dominio.Person;
 
 public class BuilderPatternTest01 {
     public static void main(String[] args) {
-        Person build = new Person.PersonBuilder()
+        Person build = Person.PersonBuilder
+                .builder()
                 .firstName("Daniel")
                 .lastName("Mendes")
                 .username("danielzinho_gameplay")
