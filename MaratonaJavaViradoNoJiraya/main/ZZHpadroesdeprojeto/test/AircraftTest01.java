@@ -1,6 +1,5 @@
 package ZZHpadroesdeprojeto.test;
 
-import ZZHpadroesdeprojeto.dominio.Aircraft;
 import ZZHpadroesdeprojeto.dominio.AircraftSingletonEager;
 
 public class AircraftTest01 {
@@ -10,7 +9,7 @@ public class AircraftTest01 {
     }
 
     static void bookSeat(String seat) {
-        System.out.println(AircraftSingletonEager.getInstance());
+        System.out.println(AircraftSingletonEager.getINSTANCE());
 //        Aircraft aircraft = new Aircraft("787-900");
 //        System.out.println(aircraft.bookSeat(seat));
     }

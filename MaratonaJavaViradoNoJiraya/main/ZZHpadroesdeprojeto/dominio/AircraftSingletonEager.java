@@ -17,7 +17,7 @@ public final class AircraftSingletonEager {
         availableSeats.add("1B");
     }
 
-    public static AircraftSingletonEager getInstance() {
+    public static AircraftSingletonEager getINSTANCE() {
         return INSTANCE;
     }
 

@@ -11,8 +11,8 @@ public class AircraftSingletonEagerTest01 {
     }
 
     public static void bookSeat(String seat) {
-        System.out.println(AircraftSingletonEager.getInstance());
-        AircraftSingletonEager aircraftSingletonEager = AircraftSingletonEager.getInstance();
+        System.out.println(AircraftSingletonEager.getINSTANCE());
+        AircraftSingletonEager aircraftSingletonEager = AircraftSingletonEager.getINSTANCE();
         System.out.println(aircraftSingletonEager.bookSeat(seat));
     }
 }
